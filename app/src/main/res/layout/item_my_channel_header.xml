@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:text="我的频道"
+        android:textColor="@color/indicatorDefaultColor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/tv"
+        android:text="拖拽可排序"
+        android:textSize="12sp"
+         />
+
+    <TextView
+        android:id="@+id/tv_btn_edit"
+        android:layout_width="48dp"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edit_button_shap"
+        android:gravity="center"
+        android:text="编辑"
+        android:textColor="@color/indicatorSelectColor"
+        android:textSize="16sp" />
+
+</RelativeLayout>

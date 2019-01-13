@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomePageFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_home_page"
+        android:layout_width="match_parent"
+        android:background="@color/red_500"
+        android:layout_height="?attr/actionBarSize">
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/home_page_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        app:tabMinWidth="50dp"
+        android:layout_below="@id/toolbar_home_page"
+        android:nestedScrollingEnabled="false"
+        app:tabMode="scrollable"
+        app:tabIndicatorColor="#00000000"
+         />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/home_page_tab_layout"
+        android:background="#f2eeee"/>
+
+    <RelativeLayout
+        android:id="@+id/layout_more"
+        android:layout_width="36dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        android:layout_below="@id/toolbar_home_page"
+        android:background="#c8ffffff">
+
+       <ImageView
+           android:layout_width="27dp"
+           android:layout_height="27dp"
+           android:src="@drawable/more_icon"
+           android:layout_centerVertical="true"
+           android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_page_view_pager"
+        android:layout_width="match_parent"
+        android:layout_below="@id/view"
+        android:layout_height="match_parent"
+        />
+
+</RelativeLayout>

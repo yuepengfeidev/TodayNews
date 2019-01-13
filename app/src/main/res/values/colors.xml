@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="textColor">#FF000000</color>
+    <color name="backgroundColor">#FFFFFF</color>
+
+    <color name="indicatorSelectColor">#ec3030</color>
+    <color name="indicatorDefaultColor">#202020</color>
+    <color name="indicatorDefaultColor2">#4e4e4e</color>
+
+    <color name="tip">#9c9c9c</color>
+    <color name="bg_focus">#DDDDDD</color>
+
+    <color name="red_500">#ef4836</color>
+
+    <color name="line_color">#eebebdbd</color>
+
+    <color name="unClick">#fbdadada</color>
+
+    <color name="backgroundcolor">#e7e7e7</color>
+
+    <color name="attentionColor">#c2bebe</color>
+    <color name="unAttentionColor">#ec3030</color>
+
+    <color name="descriptionColor">#cccccc</color>
+</resources>

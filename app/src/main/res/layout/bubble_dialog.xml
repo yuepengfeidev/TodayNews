@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/layout_uninterest"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/uninteresting_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不感兴趣"
+            android:textColor="#000000"
+            android:layout_toRightOf="@id/iv_1"
+            android:layout_marginStart="15dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="减少这类内容"
+            android:layout_toRightOf="@id/iv_1"
+            android:layout_marginStart="15dp"
+            android:layout_below="@id/tv_1"
+            />
+    </RelativeLayout>
+
+    <View
+        android:background="@color/line_color"
+        android:layout_width="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_height="1px"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/feedback_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="反馈垃圾内容"
+            android:textColor="#000000"
+            android:layout_toRightOf="@id/iv_2"
+            android:layout_marginStart="13dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="低俗，标题党等"
+            android:layout_toRightOf="@id/iv_2"
+            android:layout_marginStart="13dp"
+            android:layout_below="@id/tv_2"
+            />
+    </RelativeLayout>
+
+    <View
+        android:background="@color/line_color"
+        android:layout_width="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_height="1px"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="24.5dp"
+            android:layout_height="24.5dp"
+            android:src="@drawable/shield_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="屏蔽"
+            android:textColor="#000000"
+            android:layout_toRightOf="@id/iv_3"
+            android:layout_marginStart="14dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXXXX"
+            android:layout_toRightOf="@id/iv_3"
+            android:layout_marginStart="14dp"
+            android:layout_below="@id/tv_3"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
